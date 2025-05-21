@@ -4,17 +4,12 @@ This project implements a domain model for a Coffee Shop using object-oriented p
 
 ## Project Structure
 
-```
+
 coffee_shop/
 ├── customer.py
 ├── coffee.py
 ├── order.py
 ├── debug.py
-└── tests/
-    ├── test_customer.py
-    ├── test_coffee.py
-    └── test_order.py
-```
 
 ## Domain Model
 
@@ -65,21 +60,5 @@ pipenv install pytest
 3. Run the debug script:
 ```bash
 python debug.py
-```
 
-4. Run tests:
-```bash
-pytest
-```
 
-## Exception Handling
-
-The code includes validation for:
-- Customer name (must be a string between 1 and 15 characters)
-- Coffee name (must be a string with at least 3 characters)
-- Order price (must be a float between 1.0 and 10.0)
-- Types of objects passed to methods and initializers
-
-## Author
-
-[Your Name]
